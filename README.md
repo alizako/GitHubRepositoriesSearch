@@ -1,7 +1,7 @@
 # GitHubRepositoriesSearch
 This is a GitHub repositories search app
 
-#### Implementation:
+## Implementation:
 ASP.Net Web App using AngualrJS
 
 
@@ -18,5 +18,5 @@ You can watch your saved bookmarks, as shown:
 
 ![bookmark](https://github.com/alizako/GitHubRepositoriesSearch/blob/master/SearchApp/Content/ScreenShots/bookmarks.JPG)
 
-#### How To:
-ASP.Net Web App using AngualrJS
+## How To:
+You should download the project and run it as an ASP.Net Web App
