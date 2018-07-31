@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div ng-controller="searchCtrl">
+
+    <p>
+        <br /> <b> Search for GitHub repository name: </b> <br />
+        <input type="text" ng-model="searchKey" ng-keyup="$event.keyCode == 13 && onClickSearch()">
+        <button ng-click="onClickSearch()" class="btn-link">Search</button>
+    </p>
+
+    {{ keyInUrl }}
+    <br> <br>
+
+    <p class="panel-title popover-title">
+        <b>{{searchTitle}}</b>
+    </p>
+    {{countRes}} {{countBms}}
+    <br> <br>
+
+    <ul class="alt">
+        <li ng-repeat="x in searchResults"
+            ng-class-odd="'odd'">
+            <b> Name: </b> {{ x.name }} <br>
+            <b> Full Name: </b> {{ x.full_name }}<br>
+            <b> Avatar: </b> {{ x.owner.avatar_url }} <br>
+
+
+            <button type="submit" ng-click="saveBookmark(x.full_name, x.owner.avatar_url)" class="btn btn-success">
+                <i class="icon-plus icon-white"></i> + Add
+            </button>
+
+        </li>
+    </ul>
+</div>
+
+
+
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/customJS/IndexController.js"></script>

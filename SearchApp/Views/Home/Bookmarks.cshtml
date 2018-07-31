@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Bookmarks";
+}
+
+<div ng-controller="bmCtrl">
+    <p>
+        <br /> <b>
+        You have {{countBm}} saved repositories bookmarks:
+        </b> <br />
+    </p>
+
+    <ul class="alt">
+        <li ng-repeat="b in bms" ng-class-odd="'odd'">           
+            <b> Full Name: </b> {{ b.name }}<br>
+            <b> Avatar: </b> {{ b.avatar }} <br>
+        </li>
+    </ul>
+
+</div>
+
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/customJS/BookmarkController.js"></script>
