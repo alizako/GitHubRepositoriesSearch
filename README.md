@@ -3,7 +3,7 @@
 
 ## Implementation:
 **ASP.Net Web App using AngualrJS - Version 1.7.2**<br/><br/>
-**There are 2 views in this app: Index (Search page) and Bookmarks**
+**There are 2 views in this app: Index (Search page) and Bookmarks**<br/>
 **and 3 JS files within the Scripts/customJS/ folder**
 
 ## Introduction
