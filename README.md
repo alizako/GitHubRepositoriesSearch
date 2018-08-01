@@ -2,9 +2,9 @@
 **This is a GitHub repositories search app**
 
 ## Implementation:
-**ASP.Net Web App using AngualrJS - Version 1.7.2**<br/>
+**ASP.Net Web App using AngualrJS - Version 1.7.2**<br/><br/>
 **There are 2 views in this app: Index (Search page) and Bookmarks**
-
+**and 3 JS files within the Scripts/customJS/ folder**
 
 ## Introduction
 **This AngularJs app, displays to the user a GitHub repositories list by a given key to search by**
