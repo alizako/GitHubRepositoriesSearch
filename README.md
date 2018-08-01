@@ -2,7 +2,8 @@
 **This is a GitHub repositories search app**
 
 ## Implementation:
-**ASP.Net Web App using AngualrJS**
+**ASP.Net Web App using AngualrJS - Version 1.7.2**
+**There are 2 views in this app: Index (Search page) and Bookmarks**
 
 
 ## Introduction
